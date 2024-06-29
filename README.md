@@ -1,16 +1,16 @@
 # Functions-and-Errors-Metacrafters
 A smart contract utilizing the require(), assert(), and revert() statements, created for the Eth + Avax Intermediate Assessment 1 on the Metacrafters learning platform.
 
-# Description
+## Description
 This program is a straightforward contract written in Solidity, the programming language for developing smart contracts on the Ethereum blockchain. The contract includes the following functionalities:
 
 1. Contract effectively uses the require() statement.
 2. Contract effectively uses the assert() statement.
 3. Contract effectively uses the revert() statement.
 
-# Getting Started
+## Getting Started
 
-# Functionalities
+### Functionalities
 
 1. require(): Validates specific conditions before continuing the execution of a function. It accepts two parameters as input.
 
@@ -18,7 +18,7 @@ This program is a straightforward contract written in Solidity, the programming 
 
 3. revert(): Used to signal an error and revert the current call. You can provide an optional message with details about the error, which will be passed back to the caller. revert() causes the EVM to undo all state changes, returning to the state before the function call.
 
-# Executing the Program
+### Executing the Program
 To run this program, you can use Remix, an online Solidity IDE. Follow these steps:
 
 1. Visit the Remix website at [Remix IDE](https://remix.ethereum.org/).
@@ -28,8 +28,8 @@ To run this program, you can use Remix, an online Solidity IDE. Follow these ste
 5. Once compiled, deploy the contract by selecting the "Deploy & Run Transactions" tab in the left-hand sidebar. Choose your contract from the dropdown menu and click the "Deploy" button.
 6. After deployment, interact with the contract by calling the requireInstance, assertInstance, and revertInstance functions.
 
-# Authors
+## Authors
 Vineet Karan Singh
 
-# License
+## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
